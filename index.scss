@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Space Mono';
+  margin: 0;
+  padding: 0;
+  background-color: whitesmoke;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  img {
+    max-width: 300px;
+    border-radius: 25px;
+  }
+
+  .tag {
+    font-size: 1.6rem;
+  }
+}
